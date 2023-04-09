@@ -361,7 +361,7 @@ h3{
     gap: 22px;
     padding: 50px 44px;
 }
-p{
+section p{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -471,4 +471,111 @@ h6{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.footer-container{
+    height: 703px;
+    width: 100%;
+    background-color: #37393F;
+    margin-top: 150px;
+    padding: 86px 0;
+}
+.footer-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact{
+    display: flex;
+    gap: 60px;
+}
+.frame{
+    border-radius: 50%;
+    background-color: #4C4D52;
+    width: 68px;
+    height: 68px;
+}
+.footer-h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    line-height: 146.19%;
+}
+.footer-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    line-height: 146.19%;
+}
+.line-2{
+    height: 1px;
+    width: 100%;
+    background-color: #6C6D72;
+    margin-top: 52px;
+}
+.green{
+    color: #40DDB6;
+}
+.footer-section-1{
+    display: flex;
+    flex-direction: column;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.ul-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 220.19%;
+    color: white;
+}
+.footer-box{
+    width: 479px;
+    height: 235px;
+    background-color: #474950;
+    padding: 42px 36px;
+}
+.mail-box{
+    width: 407px;
+    height: 65px;
+    display: flex;
+    margin-top: 23px;
+}
+.mail-white{
+    background-color: white;
+    width: 264px;
+    height: 65px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #37393F;
+}
+.mail-blue{
+    width: 143px;
+    height: 65px;
+    background-color: #6B77E5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+.line-height{
+    line-height: 220.19%;
 }
