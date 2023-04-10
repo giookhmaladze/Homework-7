@@ -461,11 +461,21 @@ h6{
     font-size: 20px;
     color: #37393F;
 }
+.bottom-text::after{
+    content: url(../photo/vector-bottom.svg);
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+    
+}
 .box-bottom-content{
     display: flex;
     justify-content: space-between;
     padding: 25px 30px;
     border: solid 1px #E3E3E3;
+    position: relative;
 }
 .box-bottom{
     display: flex;
@@ -564,7 +574,10 @@ h6{
     font-size: 18px;
     line-height: 22px;
     color: #37393F;
+    border: none;
+    padding-left: 30px;
 }
+
 .mail-blue{
     width: 143px;
     height: 65px;
@@ -575,7 +588,30 @@ h6{
     font-size: 18px;
     line-height: 22px;
     color: white;
+    border: none;
+}
+.mail-blue:hover{
+    cursor: pointer;
 }
 .line-height{
     line-height: 220.19%;
+}
+.purple{
+    color: purple;
+}
+.footer-p-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.socials{
+    display: flex;
+    gap: 10px;
+}
+.footer-box-7{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
