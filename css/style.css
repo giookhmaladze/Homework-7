@@ -40,7 +40,9 @@ body{
 }
 .list-container{
     display: flex;
-    width: 825px;
+    max-width: 655px;
+    gap: 30px;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     font-family: 'Inter';
@@ -53,6 +55,9 @@ body{
 .p,.header-list{
     display: flex; 
     align-items: center;
+}
+nav button{
+    margin-left: 30px;
 }
 
 .button{
@@ -258,10 +263,13 @@ body{
 }
 
 /* styles for section on about page */
+.nav{
+    display: flex;
+    align-items: center;
+}
 .banner-image-1{
     content: '';
     background-image: url(../photo/banner-image.png);
-    background-color: red;
     max-width: 1400px;
     background-repeat: no-repeat;
     background-size: cover;
